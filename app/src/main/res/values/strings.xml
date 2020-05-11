@@ -1,0 +1,42 @@
+<resources>
+  <string name="app_name">Hava\'s Nasıl</string>
+
+  <string name="default_temp">- - ºC</string>
+  <string name="temp_celsius">%sºC</string>
+  <string name="temp_delta">Min: %sºC, Max: %sºC</string>
+  <string name="temp_wind">Wind: %s km/h</string>
+  <string name="temp_humidity">Humidity: %s%%</string>
+
+  <!-- Warnings-->
+  <string name="no_connection">Unable to connect to openweather. Do you have internet?</string>
+  <string name="no_location">Unable to retrieve current location, please retry.</string>
+  <string name="no_permission">Location permissions not granted</string>
+  <string name="not_available">Location not available, please enable it on settings.</string>
+
+  <!-- Actions-->
+  <string name="action_grant">Grant</string>
+  <string name="action_retry">Retry</string>
+  <string name="action_update">Update</string>
+  <string name="action_restart">Restart</string>
+
+  <!-- Information -->
+  <string name="info_processing">Processing</string>
+  <string name="info_pending">Pending</string>
+  <string name="info_restart">Restart</string>
+  <string name="info_failed">Failed</string>
+  <string name="info_canceled">Canceled</string>
+  <string name="info_downloading">Downloading</string>
+  <string name="info_installing">Installing</string>
+  <string name="info_installed">Installed</string>
+
+  <!-- Dialog -->
+  <string name="update_title">App update</string>
+  <string name="update_message">Application successfully updated! You need to restart the app in
+    order to use this new features.</string>
+
+  <!-- Toast -->
+  <string name="toast_started">App update started</string>
+  <string name="toast_updated">App successfully updated</string>
+  <string name="toast_failed">It was not possible to update your app</string>
+  <string name="toast_cancelled">App update cancelled</string>
+</resources>

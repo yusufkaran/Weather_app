@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:id="@+id/tv_status"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:layout_centerHorizontal="true"
+      android:visibility="gone"
+      android:fontFamily="sans-serif-condensed-medium"
+      android:text="@string/info_processing"
+      android:textSize="20sp" />
+
+  <Button
+      android:id="@+id/btn_update"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tv_status"
+      android:layout_centerHorizontal="true"
+      android:visibility="gone"
+      android:text="@string/action_update"
+      android:textSize="20sp" />
+
+  <TextView
+      android:id="@+id/tv_location"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@id/tv_date"
+      android:fontFamily="sans-serif-condensed-medium"
+      android:textSize="30sp" />
+
+  <TextView
+      android:id="@+id/tv_date"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@id/tv_temperature"
+      android:fontFamily="sans-serif-condensed"
+      android:textSize="30sp" />
+
+  <TextView
+      android:id="@+id/tv_temperature"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:fontFamily="sans-serif-condensed"
+      android:text="@string/default_temp"
+      android:textSize="150sp" />
+
+  <TextView
+      android:id="@+id/tv_description"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tv_temperature"
+      android:fontFamily="sans-serif-condensed"
+      android:textSize="30sp" />
+
+  <Button
+      android:id="@+id/btn_request"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tv_description"
+      android:layout_centerHorizontal="true"
+      android:visibility="gone"
+      android:text="@string/action_grant"
+      android:textSize="20sp" />
+
+  <Button
+      android:id="@+id/btn_retry"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tv_description"
+      android:layout_centerHorizontal="true"
+      android:visibility="gone"
+      android:text="@string/action_retry"
+      android:textSize="20sp" />
+
+  <TextView
+      android:id="@+id/tv_delta"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tv_description"
+      android:layout_marginTop="32dp"
+      android:fontFamily="sans-serif-condensed"
+      android:textSize="20sp" />
+
+  <TextView
+      android:id="@+id/tv_wind"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tv_delta"
+      android:layout_marginTop="16dp"
+      android:fontFamily="sans-serif-condensed"
+      android:textSize="20sp" />
+
+  <TextView
+      android:id="@+id/tv_humidity"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tv_wind"
+      android:layout_marginTop="16dp"
+      android:fontFamily="sans-serif-condensed"
+      android:textSize="20sp" />
+</RelativeLayout>
