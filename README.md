@@ -1,7 +1,7 @@
 # Weather_app
 Mobiler.dev sitesinde yazdigim mobi icin kullandigim uygulama
 
-Yazı Bölümleri
+**Yazı Bölümleri**
 • Projeye Başlama
 • Projenin yapısını inceleyelim
 • OpenWeatherMap’i Yapılandırma
