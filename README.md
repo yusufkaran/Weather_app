@@ -1,6 +1,8 @@
 # Weather_app
 OpenWeatherMap API sine baglanip anlik konumunuzdaki hava durumu gosteren Androis uygulama
 
+[img]https://i.hizliresim.com/QZwGfX.png[/img][/url]
+
 ## Usage
 
 1. Location permission must be granted when the app is opened
