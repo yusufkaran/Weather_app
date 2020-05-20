@@ -1,5 +1,5 @@
 # Weather_app
-OpenWeatherMap API sine baglanip anlik konumunuzdaki hava durumu gosteren Android uygulamasi
+Android app that connects to the OpenWeatherMap API and displays the weather in your instant location.
 
 <img src="https://github.com/yusufkaran/Weather_app/blob/master/Ekran%20Resmi%202020-05-02%2021.07.32.png" width="200" height="400">
 
@@ -14,7 +14,7 @@ OpenWeatherMap API sine baglanip anlik konumunuzdaki hava durumu gosteren Androi
 	
 [ExampleUnitTest](app/src/test/java/com/yusufkaran/android/weather/ExampleUnitTest.kt)
 
-# Blog posts about project
+## Blog posts about project
   [In-App Updates - Mobiler.dev](https://www.mobiler.dev/profile/karanyusuf/blog-posts)
 
 
