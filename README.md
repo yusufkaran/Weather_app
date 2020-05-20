@@ -10,8 +10,9 @@ OpenWeatherMap API sine baglanip anlik konumunuzdaki hava durumu gosteren Androi
 3. Stores all of the data on device, persistent across launches.
 4. Weather forecast data is cached, but refreshed by the repository on launch.
 
-
-
+## Unit testing
+	
+[ExampleUnitTest](app/src/test/java/com/yusufkaran/android/weather/ExampleUnitTest.kt)
 
 # Blog posts about project
   [In-App Updates - Mobiler.dev](https://www.mobiler.dev/profile/karanyusuf/blog-posts)
