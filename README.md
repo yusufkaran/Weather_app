@@ -14,5 +14,9 @@ Android app that connects to the OpenWeatherMap API and displays the weather in 
 ## Blog posts about project
   [In-App Updates - Mobiler.dev](https://www.mobiler.dev/profile/karanyusuf/blog-posts)
 
+## TODO
+- [ ] City Management (multiple city selection)
+- [ ] Desktop Widget
+- [ ] Freely Customizable Item Interface
 
 
